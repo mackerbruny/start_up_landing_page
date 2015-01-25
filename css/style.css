@@ -55,10 +55,53 @@ Global
 
 body {
     background-color: LightGray;
+    font-family: 'Roboto', sans-serif;
 }
 
 div {
     border: 1px solid Chocolate;
+}
+
+nav,
+.banner,
+.benefits {
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #838994;
+	font-weight: 300;
+}
+
+a:hover {
+	color: #4c5058;
+}
+
+/*==============================================================
+
+Navigation
+
+==============================================================*/
+
+header {
+	background-color: #fff;
+	width: 100%;
+}
+
+nav {
+	max-width: 732px;
+	padding: 1em;
+}
+
+ul.navigation {
+	float: right;
+	margin-top: 1em;
+}
+
+.navigation li {
+	display: inline-block;
+	margin-right: 1.5em;
 }
 
 
