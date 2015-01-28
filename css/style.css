@@ -69,6 +69,13 @@ div {
     border: 1px solid Chocolate;
 }
 
+.content {
+	width: 970px;
+	margin: 0 auto;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 /*==============================================================
 
 Navigation
@@ -79,12 +86,10 @@ Navigation
 	background-color: #fff;
 }
 
-.content {
-	width: 970px;
+.top-navigation > .content {
 	height: 70px;
-	margin: 0 auto;
-	padding: 1em;
-	box-sizing: border-box;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 .links {
@@ -109,6 +114,34 @@ Navigation
 .top-navigation .links .active {
     color: #4c5058;
     font-weight: 600;
+}
+
+/*==============================================================
+
+Banner
+
+==============================================================*/
+
+section.banner {
+	padding-top: 8em;
+	padding-bottom: 12em;
+	background-image: url("../images/first-background.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+h1.masthead {
+	color: #fff;
+	font-size: 3em;
+	font-weight: 300;
+}
+
+p.masthead-subhead {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-top: 16px;
 }
 
 
