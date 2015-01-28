@@ -153,17 +153,23 @@ p.masthead-subhead {
 	margin-top: 16px;
 }
 
-a.btn {
+.big-btn {
+	text-shadow: none;
+    border-style: none;
+    line-height: 1.33;
 	margin-top: 1.75em;
 	padding: 1em 2em;
 	background-color: #f15a29;
 	display: inline-block;
 	border-radius: 4px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 1em;
 	color: #fff;
 	transition: background-color 0.25s ease;
 }
 
-a.btn:hover {
+.big-btn:hover {
 	background-color: #d9400e;
 }
 
