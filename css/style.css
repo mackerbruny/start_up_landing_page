@@ -106,7 +106,7 @@ Navigation
 	transition: color 0.25s ease;
 }
 
-.links li:hover {
+.links li a:hover {
 	cursor: pointer;
 	color: #4c5058; 
 }
