@@ -260,6 +260,12 @@ footer .social > li {
 .twitter a,
 .facebook a,
 .instagram a {
+	color: #838994;
+}
+
+.twitter a:hover,
+.facebook a:hover,
+.instagram a:hover {
 	color: inherit;
 }
 
