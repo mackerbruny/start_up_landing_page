@@ -215,7 +215,7 @@ Footer
 
 ==============================================================*/
 
-footer {
+footer.social {
 	background-color: #fff;
 	text-align: center;
 }
@@ -230,43 +230,19 @@ h5 {
 	font-weight: 400;
 }
 
-footer .social {
+footer .icons {
 	margin-top: 1em;
 }
 
-footer .social > li {
+footer .icons > li {
+	width: 30px;
+	height: 30px;
 	border: 1px solid #ececec;
-	border-radius: 18px;
+	border-radius: 15px;
 	font: normal normal normal 14px/1 FontAwesome;
 	display: inline-block;
+	padding-top: 7px;
 	margin: 0 2px;
-}
-
-.twitter {
-	padding: 10px 11px;
-	color: #55acee;
-}
-
-.facebook {
-	padding: 10px 13px;
-	color: #4c66a4;
-}
-
-.instagram {
-	padding: 10px 11px;
-	color: #3f729b;
-}
-
-.twitter a,
-.facebook a,
-.instagram a {
-	color: #838994;
-}
-
-.twitter a:hover,
-.facebook a:hover,
-.instagram a:hover {
-	color: inherit;
 }
 
 .copyright {
