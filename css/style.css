@@ -238,7 +238,7 @@ footer .icons > li {
 	width: 30px;
 	height: 30px;
 	border: 1px solid #ececec;
-	border-radius: 15px;
+	border-radius: 50%;
 	font: normal normal normal 14px/1 FontAwesome;
 	display: inline-block;
 	padding-top: 7px;
