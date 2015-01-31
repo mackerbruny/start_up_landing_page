@@ -120,7 +120,7 @@ Navigation
     font-weight: 600;
 }
 
-li a {
+.top-navigation li a {
 	color: #838994;
 }
 
@@ -209,8 +209,66 @@ h3 {
 	margin-top: 2em;
 }
 
+/*==============================================================
 
+Footer
 
+==============================================================*/
+
+footer {
+	background-color: #fff;
+	text-align: center;
+}
+
+footer > .content {
+	padding: 1.5em 0 8.125em 0;
+	overflow: hidden;
+	border-top: 1px solid #ccc;
+}
+
+h5 {
+	font-weight: 400;
+}
+
+footer .social {
+	margin-top: 1em;
+}
+
+footer .social > li {
+	border: 1px solid #ececec;
+	border-radius: 18px;
+	font: normal normal normal 14px/1 FontAwesome;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.twitter {
+	padding: 10px 11px;
+	color: #55acee;
+}
+
+.facebook {
+	padding: 10px 13px;
+	color: #4c66a4;
+}
+
+.instagram {
+	padding: 10px 11px;
+	color: #3f729b;
+}
+
+.twitter a,
+.facebook a,
+.instagram a {
+	color: inherit;
+}
+
+.copyright {
+	margin-top: 1em;
+	font-weight: 300;
+	font-size: .85em;
+	color: #ccc;
+}
 
 
 
